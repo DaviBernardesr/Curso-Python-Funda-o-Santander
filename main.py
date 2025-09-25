@@ -1,6 +1,6 @@
 
 """
-Curso de Python na Fundação Bradesco
+Curso de Python na Fundação Santander
 """
 
 print ('\nHello World\n')

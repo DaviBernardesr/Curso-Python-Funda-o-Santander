@@ -1,6 +1,6 @@
 
 """
-Curso de Python Fundação Bradesco
+Curso de Python Fundação Santander
 """
 
 #Aritméticos
