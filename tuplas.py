@@ -15,3 +15,12 @@ print(tupla1[2])
 
 print(tupla2[2])
 
+print(tupla1[3])
+
+#As Tuplas tem métodos para contar quantas vezes aparece o número, indice da aparicição do elemento, count(elemento), index(elemento),
+#len(tupla)
+
+print(tupla1.count(2))
+print(tupla2.index(3))
+print(tupla1.index(5))
+print(len(tupla1))
