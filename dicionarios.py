@@ -8,7 +8,7 @@ Curso de Python Fundação Santander
 
 #Para acessar, basta refêrenciar o nome da variavel e indicar a chave de acesso.
 #EX:
-# print(variavel["chave"]
+# print(variavel["chave"])
 
 #Tem métodos para controlar os dicionarios, como o keys(), mostra as chaves, values(), mostra o conteúdo, items(), mostra chaves e valores juntos
 #e tem o update(novo item), que adiciona nova chave e valor.
