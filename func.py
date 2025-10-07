@@ -17,3 +17,14 @@ def saudacao(nome):
 
 saudacao("Davi")
 
+#Func com argumentos indeterminados
+def soma_valores(*valores):
+    soma = 0
+    for i in valores:
+        soma += i
+
+    return soma
+
+result = soma_valores(1, 50, 60)
+print(result)
+
