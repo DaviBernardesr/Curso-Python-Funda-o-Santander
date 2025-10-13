@@ -15,7 +15,17 @@ def saudacao(nome):
     print(f"\nOlá seja bem-vindo, {nome} Sua idade é: {idade}")
 
 
+#Variável Global
+
+nome = "Davi Bernardes"
+
 saudacao("Davi")
+
+def prof(profissao):
+    cargo = input("Digite o cargo que exerce extra: ")
+    print(f"Olá {nome}, sua profissão é {profissao}, \nCargo Extra: {cargo}")
+
+prof("Radialista")
 
 #Func com argumentos indeterminados
 def soma_valores(*valores):
@@ -25,6 +35,5 @@ def soma_valores(*valores):
 
     return soma
 
-result = soma_valores(1, 50, 60)
+result = soma_valores(1, 50, 60, 22)
 print(result)
-
