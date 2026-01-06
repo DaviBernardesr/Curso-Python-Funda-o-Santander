@@ -30,12 +30,8 @@ while dizimo_porcent < 10:
     print(f"Sua porcentagem de dízimo declarado é de: {dizimo_porcent}, o mínimo é 10%, atualize-a!!!\n")
     dizimo_porcent = int(input("Digite a % nova de Dízimo entregue: \n"))
 
-    if dizimo_porcent >= 10:
-        exit()
 
-
-valor_pago_dizimo = salario / dizimo_porcent
-print(valor_pago_dizimo)
-
+valor_dizimo = salario / dizimo_porcent
+print(f"\nO valor a ser devolvido (Respaldo: {dizimo_porcent}%) é de: {valor_dizimo}\n")
 
 

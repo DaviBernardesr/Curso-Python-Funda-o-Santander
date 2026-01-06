@@ -15,11 +15,15 @@ conjunto1 = {"Davi", "Bruno", "Rafael"}
 conjunto2 = {1,2,3,4,5}
 conjunto3 = {3,4,5,6,7}
 conjunto4 = set([1,2,3,4,5])
+conjunto5 = {10, 20, 60, 70}
 
 
 print(conjunto1)
 print(conjunto2)
 print(conjunto4)
+print(f"O conjunto 5 é: {conjunto5}")
+
+
 
 #Operações
 diferenca = conjunto2 & conjunto3
